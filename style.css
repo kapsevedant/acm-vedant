@@ -88,7 +88,7 @@ background-image:url('images/mainbgimg1.gif');
 }
 
 .banner p{
-margin-top: 100px;
+margin-top: 50px;
 padding-bottom: 0px;
 padding-top: 50px;
 font-size: 70px;
@@ -110,7 +110,7 @@ opacity: 1;
 
 
 .banner h2{
-padding-bottom: 200px;
+padding-bottom: 20px;
 }
 
 .banner h2{
@@ -250,37 +250,81 @@ padding-bottom: 120px;
 
 }
 
-.special-groups-container{
-background: white;
+.special-groups-container h2{
+font-weight: bolder;
 }
 
-.special-groups-row-d1{
-padding-top: 90px;
+.special-groups-container{
+margin-bottom: 60px;
+}
+
+
+#special-group-row-card1{
+box-shadow:4px 4px silver;
+}
+#special-group-row-card2{
+box-shadow:4px 4px silver;
+}
+#special-group-row-card3{
+box-shadow:4px 4px silver;
+}
+#special-group-row-card1 img{
+height: 195px;
+margin: auto;
+}
+#special-group-row-card2 img{
+height: 180px;
+width:150px ;
+margin: auto;
+
+}
+#special-group-row-card3 img{
+height: 200px;
+width: 190px;
+margin: auto;
+}
+
+#special-group-row-card1 h5{
+color: #17a2b8;
+}
+#special-group-row-card2 h5{
+color: #17a2b8;
+}
+#special-group-row-card3 h5{
+color: #17a2b8;
+}
 }
 /*-----------------------------------------------------*/
 
 /*------------------ Our Team --------------------------*/
-.our-team{
+/*.our-team{
        width: 100%;
        height: auto;
-       background: whitesmoke;
+       background: silver;
        padding-top: 100px;
        padding-bottom: 100px;
 }
-
+*/
 .our-team-container h2{
 padding-bottom: 50px;
+font-weight: bolder;
 }
 .our-team-container1 h4{
 padding-bottom: 50px;
+font-weight: bolder;
+font-size: 27px;
 }
 
 .our-team-row1{
 padding-bottom: 100px;
 }
 
+
+
 .our-team-container2 h4{
 padding-bottom: 80px;
+font-weight: bolder;
+font-size: 27px;
 }
 
 .card1{
@@ -367,6 +411,9 @@ object-fit: cover;
 transform-style: preserve-3d;
 clip-path: circle();
 }
+
+
+
 /*-----------------------------------------------------*/
 
 
@@ -384,7 +431,7 @@ background-image:url('images/mainbgimg1.gif');
 }
 
 .gallery{
-width: 93%;
+width:%;
 height: auto;
 margin: auto;
 }
@@ -399,6 +446,11 @@ height: auto;
 background: whitesmoke;
 padding-top: 10px;
 margin-top: 200px;
+}
+
+.footer-main-div{
+padding-top: 40px;
+padding-bottom: 60px;
 }
 
 .connect-us-icons a{
