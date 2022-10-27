@@ -64,7 +64,7 @@ window.onscroll = calcScrollValue;
 
 <!------------------------------------ Nav Bar --------------------------------------------------------------------------------------------------->
 
-<div class="navigation">
+<div class="navigation" id="navigation">
     <nav class="navbar  navbar-expand-lg custom_nav ">
     <div class="container logo">
     <a href="#" class="navbar-brand">
@@ -87,6 +87,19 @@ window.onscroll = calcScrollValue;
     </div>
   </div>
 </nav>
+<!-- <script type="text/javascript">
+    var lastScrollTop = 0;
+      navbar = document.getElementById("navigation");
+      windows.addEventListener("scroll", function(){
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if(scrollTop > lastScrollTop){
+         navbar.style.top = "-100px";
+      }else{
+         navbar.style.top = "0";
+      }
+      lastScrollTop = scrollTop;
+      });
+</script> -->
 </div>
 <!------------------------------------------------------------------------------------------------------------------------------------------------>
 
@@ -123,15 +136,15 @@ window.onscroll = calcScrollValue;
     <div style="background:whitesmoke;">
     <div class="container-fluid svpcet-acm-next-container" style="width:80%">
     <div class="row svpcet-acm-row">
-        <div class="col-md-4 svpcet-acm-row-d1">
+        <div class="col-lg-4 svpcet-acm-row-d1">
             <h4>Our Ideology</h4>
             <p data-aos="fade-right">The chapter aims at creating interest among the students in computer science apart from what they learn during the course work.</p>
         </div>
-        <div class="col-md-4 svpcet-acm-row-d2">
+        <div class="col-lg-4 svpcet-acm-row-d2">
             <h4 class="text-white">Sharing & Gaining Knowledge </h4>
             <p class="text-white" data-aos="fade-up">Our main focus has been on holding numerous events which are to spread computing and technical knowledge in the undergraduate level.</p>
         </div>
-        <div class="col-md-4 svpcet-acm-row-d3">
+        <div class="col-lg-4 svpcet-acm-row-d3">
             <h4>OverAll Development</h4>
             <p data-aos="fade-left">The chapter will organize seminars and workshops on different domains by speakers who are well known in their area. These talks will give students opportunities to learn about advanced research subjects.</p>
         </div>
@@ -282,16 +295,16 @@ window.onscroll = calcScrollValue;
     <h1 class="text-info text-center" style="padding-bottom:100px;padding-top:100px;">Mission and Core Values</h1>
     <div class="container-fluid" style="width:80%;margin:auto">
         <div class="row">
-            <div class="col-md-4 mission" style="background:white;">
+            <div class="col-lg-4 mission" style="background:white;">
                 <h3 class="text-dark" style="padding-top:80px;">Mission</h3>
                 <p class="text-dark pt-3" data-aos="fade-right" style="padding-bottom:80px;">SVPCET, ACM Student Chapter is a educational club dedicated to organizing the various events based on various field of Computer Science for enhancing the students knowledge.</p>
             </div>
-            <div class="col-md-4" style="background:#17a2b8;">
+            <div class="col-lg-4 vision" style="background:#17a2b8;">
                 <h3 class="text-white" style="padding-top:80px;">Vision</h3>
                 <p class="text-white pt-3" data-aos="fade-up" style="padding-bottom:80px;">SVPCET, ACM Student Chapter will be continuosly serving 
                 the students with great knowledge and latest technologies in field of Computer Science.</p>
             </div>
-            <div class="col-md-4 core-values" style="background:white;">
+            <div class="col-lg-4 core-values" style="background:white;">
                 <h3 class="text-dark" style="padding-top:80px;">Core Values</h3>
                 <div class="text-dark pt-3 vision" data-aos="fade-left" style="padding-bottom:80px;">
                     <ul class=" list-unstyled">
@@ -316,9 +329,9 @@ window.onscroll = calcScrollValue;
                <div class="col-md-4">
                    <h4> Address:</h4>
                    <h6 class="text-info" data-aos="fade-up">ST. Vincent Pallotti College Of Engineering & Technology,Gavsi Manapur, Wardha Road, Nagpur:441108</h6>
-                   <button type="button" class="write-us-btn">Write Us <i class="fa fa-edit" style="margin-left:10px"></i></button>
+                   <button type="button" class="write-us-btn">Write Us</button>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-4 quick-links">
                   <h4>Quick Links</h4>
                   <div class="footer-imp-links text-info" data-aos="fade-down"> 
                    <a class="link" href="team.html">Team</a><br>
@@ -328,7 +341,7 @@ window.onscroll = calcScrollValue;
                    <a class="link" href="contact-us.html">Contact Us</a>
                   </div>
                </div>
-               <div class="col-md-4">
+               <div class="col-md-4 location">
                    <h4>Location:</h4>
                    <div class="location-map" data-aos="fade-up">
                       <iframe style="width:250px;height:auto;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.699716753677!2d79.04554451488298!3d21.004670786011374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4bdc6b03bfded%3A0x51964eb66fa3ec5e!2sSt.%20Vincent%20Pallotti%20College%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1666528069153!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
