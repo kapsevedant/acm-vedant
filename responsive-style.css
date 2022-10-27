@@ -124,14 +124,26 @@ padding-bottom: 20px;
 }
 .svpcet-acm-row-d3 h4{
 font-size: 19px;     
-padding-top: 70px;
+margin-top: 40px;
 padding-bottom: 0px;
+}
+.svpcet-acm-row-d3 p{
+padding-top: 25px;
 }
 }
 
 /*----------------------------------------------*/
 
 /*----------------- Special Groups ----------------------*/
+
+@media only screen and (max-width:1000px){
+.special-group-row-div2{
+margin-top: 35px;
+}
+.special-group-row-div3{
+margin-top: 35px;
+}
+}
 
 @media only screen and (max-width:801px){
 .special-groups-container h2{
@@ -145,11 +157,11 @@ color: silver;
 }
 
 .special-group-row-div2{
-margin-top: 25px;
+margin-top: 30px;
 }
 
 .special-group-row-div3{
-margin-top: 25px;
+margin-top: 30px;
 }
 
 
@@ -239,6 +251,10 @@ font-size: 23px;
 font-size: 20px;
 margin-top: -100px;
 }
+
+.vision h3{
+font-size: 20px;
+}
 .core-values h3{
 font-size: 20px;
 }
@@ -257,7 +273,7 @@ margin-bottom: -150px;
 font-size: 19px;
 }
 .footer h6{
-font-size: 13px;
+font-size: 14px;
 }
 .footer-imp-links a{
 font-size: 13px;
@@ -265,7 +281,7 @@ color: #17a2b8;
 }
 
 .design-team h6{
-font-size: 15px;
+font-size: 16px;
 font-weight: lighter;
 }
 
@@ -273,9 +289,17 @@ font-weight: lighter;
 .connect-us-icons a{
 font-size:16px;
 }
+
+.quick-links h4{
+margin-top: 25px;
+}
+.location h4{
+margin-top: 25px;
 }
 
-@media only screen and (max-width:601px){
+}
+
+@media only screen and (max-width:801px){
 .write-us-btn{
 background-color: #17a2b8;
   color: white;
@@ -287,7 +311,22 @@ background-color: #17a2b8;
   margin-top: 20px;
   font-size: 13px;
 }
-
 }
+
+@media only screen and (max-width:701px){
+.write-us-btn{
+background-color: #17a2b8;
+  color: white;
+  padding: 7px 7px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 35%;
+  margin-top: 20px;
+  font-size: 10px;
+}
+}
+
+
 /*------------------------------------------------------*/
 
