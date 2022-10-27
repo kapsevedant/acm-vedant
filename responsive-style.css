@@ -1,6 +1,6 @@
 /*-------------------- RESPONSIVE CSS-----------------------*/
 /*---------------------Progress-Bar ---------------------*/
-@media only screen and (max-width:991px){
+@media only screen and (max-width:801px){
 
 #progress{
 height: 50px;
@@ -47,7 +47,7 @@ color: white;
 /*--------------------------------------------*/
 
 /*-------------- Banner Section--------------*/
-@media only screen and (max-width:991px){
+@media only screen and (max-width:801px){
 .banner p{
 margin-top: 60px;
 padding-bottom: 0px;
@@ -68,7 +68,7 @@ font-size: 30px;
 /*---------------------------------------------*/
 
 /*------------------ About ACM ----------------*/
-@media only screen and (max-width:991px){
+@media only screen and (max-width:801px){
 .about-acm h2{
 padding-top: 70px;
 padding-bottom: 50px;
@@ -99,7 +99,7 @@ font-size: 0.8rem;
 /*---------------------------------------------*/
 
 /*---------------- SVPCET ACM Section--------------*/
-@media only screen and (max-width:991px){
+@media only screen and (max-width:801px){
 .svpcet-acm h2{
 padding-top: 60px;
 padding-bottom: 50px;
@@ -133,7 +133,7 @@ padding-bottom: 0px;
 
 /*----------------- Special Groups ----------------------*/
 
-@media only screen and (max-width:991px){
+@media only screen and (max-width:801px){
 .special-groups-container h2{
 font-size: 24px;
 font-weight: bolder;
@@ -187,7 +187,7 @@ font-size: 14px;
 /*-----------------------------------------------------*/
 
 /*----------------------- Our Team Section------------*/
-@media only screen and (max-width:991px){
+@media only screen and (max-width:801px){
 .our-team-container h2{
 font-size: 24px;
 font-weight: bold;
@@ -231,7 +231,7 @@ width: 150px;
 /*-------------------------------------------------------*/
 
 /*-------------- Mission Section --------------------*/
-@media only screen and (max-width:1111px){
+@media only screen and (max-width:801px){
 .gallery-main h1{
 font-size: 23px;
 }
@@ -250,7 +250,7 @@ margin-bottom: -150px;
 /*-----------------------------------------------------*/
 
 /*------------------Footer Section ---------------------*/
-@media only screen and (max-width:991px){
+@media only screen and (max-width:801px){
  
 
 .footer h4{
