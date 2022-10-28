@@ -83,6 +83,7 @@ background-image:url('images/mainbgimg1.gif');
        background-attachment: fixed;
        width: 100%;
        height: auto;
+       padding-bottom: 30px;
 }
 
 .banner p{
@@ -114,6 +115,7 @@ padding-bottom: 20px;
 .banner h2{
 animation: fadeInLeft 1.5s ease-in-out;
 }
+
 @keyframes fadeInLeft{
 from{
 opacity :0;
@@ -132,8 +134,15 @@ opacity: 1;
 
 
 /*--------------------------- About ACM-----------------------------------------*/
+
+.about-acm{
+background: whitesmoke;
+margin-top: 100px;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
 .about-acm h2{
-padding-top: 130px;
 padding-bottom: 50px;
 font-weight: bold;
 }  
@@ -158,9 +167,6 @@ padding-bottom: 30px;
 color: grey;
 }  
 
-.visit-acm-btn{
-padding-bottom: 150px;
-}
 
 .visit-acm-btn button{
 color:white;
@@ -184,7 +190,9 @@ background-image:url('images/mainbgimg1.gif');
        background-attachment: fixed;
        width: 100%;
        height: auto;
-       padding-bottom: 100px;
+       padding-bottom: 60px;
+       padding-top: 60px;
+       margin-top: 40px;
 }
 
 
@@ -194,21 +202,29 @@ font-weight: bold;
 padding-bottom: 50px;
 }
 
-.svpcet-acm-next-container{
-background: whitesmoke;    
+.svpcet-acm-next-container{ 
 padding-top: 40px;
 padding-bottom: 50px;
 width: 80%;
 
 }
 
+.svpcet-acm-row-d1{
+background-color: whitesmoke;
+}
+
 .svpcet-acm-row-d2{
 background-color: #17a2b8 ;
+}
+
+.svpcet-acm-row-d3{
+background-color:whitesmoke ;
 }
 
 .svpcet-acm-row-d1 h4{
 padding-top: 70px;
 padding-bottom: 20px;
+font-style: italic;
 }
 
 .svpcet-acm-row-d1 p{
@@ -218,6 +234,7 @@ padding-bottom: 70px;
 .svpcet-acm-row-d2 h4{
 padding-top: 70px;
 padding-bottom: 20px;
+font-style: italic;
 }
 
 .svpcet-acm-row-d2 p{
@@ -227,6 +244,7 @@ padding-bottom: 70px;
 .svpcet-acm-row-d3 h4{
 padding-top: 70px;
 padding-bottom: 20px;
+font-style: italic;
 }
 
 .svpcet-acm-row-d3 p{
@@ -250,6 +268,7 @@ padding-bottom: 120px;
 
 .special-groups-container h2{
 font-weight: bolder;
+margin-bottom: 20px;
 }
 
 .special-groups-container{
@@ -284,12 +303,15 @@ margin: auto;
 
 #special-group-row-card1 h5{
 color: #17a2b8;
+font-style: italic;
 }
 #special-group-row-card2 h5{
 color: #17a2b8;
+font-style: italic;
 }
 #special-group-row-card3 h5{
 color: #17a2b8;
+font-style: italic;
 }
 }
 /*-----------------------------------------------------*/
@@ -311,6 +333,7 @@ font-weight: bolder;
 padding-bottom: 50px;
 font-weight: bolder;
 font-size: 27px;
+font-style: italic;
 }
 
 .our-team-row1{
@@ -323,6 +346,7 @@ padding-bottom: 100px;
 padding-bottom: 80px;
 font-weight: bolder;
 font-size: 27px;
+font-style: italic;
 }
 
 .card1{
@@ -428,12 +452,32 @@ background-image:url('images/mainbgimg1.gif');
       margin-top: 70px;
 }
 
-.gallery{
-width:%;
-height: auto;
-margin: auto;
+.mission{
+background: whitesmoke;
 }
 
+.mission h3{
+font-style: italic;
+padding-top:80px;
+}
+
+.vision{
+background: #17a2b8;
+}
+
+.vision h3{
+font-style: italic;
+padding-top:80px;
+}
+
+.core-values{
+background: whitesmoke;
+}
+
+.core-values h3{
+font-style: italic;
+padding-top:80px;
+}
 /*-----------------------------------------------------*/
 
 
