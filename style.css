@@ -286,18 +286,21 @@ box-shadow:6px 6px silver;
 box-shadow:6px 6px silver;
 }
 #special-group-row-card1 img{
-height: 195px;
+height: 180px;
+width: 150px;
 margin: auto;
+padding-bottom: 15px;
 }
 #special-group-row-card2 img{
-height: 180px;
+height: 160px;
 width:150px ;
 margin: auto;
+padding-top: 25px;
 
 }
 #special-group-row-card3 img{
-height: 200px;
-width: 190px;
+height: 180px;
+width: 160px;
 margin: auto;
 }
 
