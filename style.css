@@ -109,7 +109,8 @@ opacity: 1;
 
 
 .banner h2{
-padding-bottom: 20px;
+margin-bottom: 20px;
+font-style:italic    
 }
 
 .banner h2{
